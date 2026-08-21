@@ -1,10 +1,10 @@
 <div align="center">
 
-# 👋 Hi, I'm Sergio Izaque <img src="./assets/slayer-symbol.png" alt="Red symbol" width="180" />
+# 👋 Hi, I'm Sergio Izaque
 
 ### Computer Science Education Student • IT Technician • Developer
 
-<img src="./assets/slayer-symbol.png" alt="Red symbol" width="180" />
+<img src="./assets/slayer-symbol.png" alt="Red symbol" width="60" />
 
 <br><br>
 
