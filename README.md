@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Sergio Izaque
 
-### Computer Science Education Student • IT Technician • Developer <img src="./assets/slayer-symbol.png" alt="Red symbol" width="60" />
+### Computer Science Education Student • IT Technician • Developer
 
 <br><br>
 
