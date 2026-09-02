@@ -1,171 +1,103 @@
 <div align="center">
 
-# 👋 Hi, I'm Sergio Izaque
+# Hi, I'm Sergio Izaque
 
-### Computer Science Education Student • IT Technician • Developer
+### Web Developer • Computer Science Education Student • IT Technician
 
-<br><br>
+I build digital products focused on real problems — from **web systems and mobile applications** to **computer vision, sports technology and automation**.
 
-I build **web, mobile and computer vision applications**, focusing on real-world projects involving **sports, education, management systems and automation**.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sergio%20Izaque-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/sergioizaque)
-[![Instagram](https://img.shields.io/badge/Instagram-@sergio__izaque__tkd-E4405F?style=for-the-badge\&logo=instagram\&logoColor=white)](https://www.instagram.com/sergio_izaque_tkd)
+[![Portfolio](https://img.shields.io/badge/Portfolio-cerjo.dev-168CFF?style=for-the-badge&logo=vercel&logoColor=white)](https://cerjo.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sergio%20Izaque-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sergioizaque)
+[![Instagram](https://img.shields.io/badge/Instagram-@cerjo.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/cerjo.dev/)
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About me
 
 I'm a **Computer Science Education student at Universidade Federal Fluminense (UFF)** and an **IT Technician**.
 
-My main interest is building software that solves real problems. I enjoy working across different areas of development, from **full-stack web applications and mobile apps to computer vision and AI-assisted systems**.
+My work is centered on turning real needs into usable software. I enjoy building complete products, thinking about interface, architecture, data, deployment and the day-to-day experience of the people who will actually use them.
 
-Currently, I'm developing projects involving:
+Today I'm especially interested in:
 
-* 🏋️ Sports and fitness technology
-* 🥗 Nutrition management systems
-* 🧠 Computer vision and motion analysis
-* 📱 Web and mobile applications
-* 🤖 Artificial Intelligence integrations
-* ☁️ Cloud-based applications
-* 🎓 Educational technology
+- full-stack web development
+- product and UI/UX thinking
+- mobile applications
+- computer vision and motion analysis
+- artificial intelligence integrations
+- software architecture, testing and code quality
+- cloud infrastructure and automation
 
-I'm particularly interested in improving my knowledge of **software architecture, testing, code quality, automation and scalable application development**.
-
----
-
-## 🚀 What I'm Working On
-
-### 🏋️ Gym Management Platform
-
-A web and mobile ecosystem designed to connect **trainers and students**, helping manage workouts, exercises, training sessions and progress.
-
-The platform includes features such as exercise load tracking, workout history, personal records and offline synchronization.
-
-**Main technologies:**
-
-`TypeScript` `React Native` `Expo` `Firebase` `Firestore` `Vercel`
-
-> 🔒 Private repository — real-world project currently under development.
+> My professional portfolio and current work are available at **[cerjo.dev](https://cerjo.dev)**.
 
 ---
 
-### 🏃 Sports Motion Analyzer
+## Featured projects
 
-A computer vision project focused on **sports movement analysis**.
+### Vértice Performance
 
-The goal is to analyze body movement through camera input and use pose tracking to evaluate sports techniques.
+A conceptual landing page for a performance-focused gym, created as a portfolio case for responsive UI, conversion-oriented structure and front-end development.
 
-The project is initially focused on **Taekwondo movements**, with possibilities of expanding to other sports and multiple camera configurations.
+**Stack:** `React` `TypeScript` `Vite` `Responsive Design`
 
-**Main technologies:**
+[Live project](https://vertice-performance-alpha.vercel.app/) • [Repository](https://github.com/krrozino/vertice-performance)
 
-`Python` `Computer Vision` `MediaPipe` `OpenCV` `AI`
+### DevBoard
 
-> 🎓 Academic / research project.
+A software project observability product that connects to GitHub and transforms project activity into health signals, attention items and actionable context.
 
----
+**Stack:** `Next.js` `React` `TypeScript` `PostgreSQL` `Drizzle ORM` `Vitest`
 
-### 🥗 Nutrition Management Platform
+[Repository](https://github.com/krrozino/devboard)
 
-A system designed for **nutritionists and patients**, providing tools for nutrition planning and patient management.
+### Gym Management Platform
 
-The platform is being designed around real professional workflows, including diet creation, diet versions, meal organization, food substitutions and patient monitoring.
+A real-world web and mobile ecosystem for trainers and students, including workout management, exercise load tracking, workout history, personal records and offline synchronization.
 
-The architecture also considers integrations with **AI models and external services**.
+**Stack:** `TypeScript` `React Native` `Expo` `Firebase` `Firestore` `Vercel`
 
-**Main technologies:**
+> Private repository — real-world project under development.
 
-`TypeScript` `React` `Firebase` `Vercel` `AI APIs`
+### Sports Motion Analyzer
 
-> 🚧 Currently in development.
+An academic/research project focused on sports movement analysis using camera-based pose tracking, initially centered on Taekwondo movements.
 
----
+**Stack:** `Python` `Computer Vision` `MediaPipe` `OpenCV` `AI`
 
-## 🛠️ Tech Stack
+### Nutrition Management Platform
 
-### 💻 Languages
+A system designed around professional nutrition workflows and patient monitoring, with web interfaces, cloud data and future external integrations.
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
+**Stack:** `TypeScript` `React` `Firebase` `Vercel` `AI APIs`
 
-### 🌐 Frontend
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
-
-### 📱 Mobile
-
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge\&logo=expo\&logoColor=white)
-
-### ☁️ Backend & Cloud
-
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge\&logo=googlecloud\&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge\&logo=vercel\&logoColor=white)
-
-### 👁️ Computer Vision & AI
-
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge\&logo=opencv\&logoColor=white)
-![Python](https://img.shields.io/badge/Computer_Vision-Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-
-### 🔧 Tools
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)
+> Private repository — currently under development.
 
 ---
 
-## 🌱 Currently Learning
+## Tech stack
 
-I'm continuously improving my knowledge in:
-
-* Software architecture
-* Automated testing
-* Clean code
-* Design patterns
-* Full-stack development
-* Computer vision
-* Artificial Intelligence integration
-* Cloud infrastructure
-* CI/CD
-* Application security
-* Software scalability
+**Languages:** JavaScript • TypeScript • Python • Java  
+**Web:** HTML • CSS • React • Next.js • Vite • Tailwind CSS  
+**Mobile:** React Native • Expo  
+**Data & Cloud:** Firebase • Firestore • PostgreSQL • Drizzle ORM • Vercel • Google Cloud  
+**Computer Vision:** OpenCV • MediaPipe  
+**Tools:** Git • GitHub • VS Code
 
 ---
 
-## 🎯 Areas of Interest
+## Currently improving
 
-* Full-Stack Development
-* Mobile Development
-* Computer Vision
-* Artificial Intelligence
-* Sports Technology
-* Educational Technology
-* Automation
-* Cloud Applications
+Software architecture • automated testing • clean code • design patterns • CI/CD • application security • scalability • AI integrations.
 
 ---
 
+## Let's connect
 
-## 🤝 Let's Connect
-
-I'm always interested in learning, building new projects and collaborating with other developers.
-
-You can find me here:
-
-* 💼 [LinkedIn](https://linkedin.com/in/sergioizaque)
-* 📸 [Instagram](https://www.instagram.com/sergio_izaque_tkd)
-* 💻 [GitHub](https://github.com/krrozino)
-
----
+- Portfolio: **[cerjo.dev](https://cerjo.dev)**
+- Instagram: **[@cerjo.dev](https://www.instagram.com/cerjo.dev/)**
+- LinkedIn: **[Sergio Izaque](https://linkedin.com/in/sergioizaque)**
 
 <div align="center">
 
