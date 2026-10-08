@@ -2,9 +2,9 @@
 
 # Hi, I'm Sergio Izaque
 
-### Web Developer • Computer Science Education Student • IT Technician
+### Software Developer · Web & Mobile · Computer Science Education @ UFF
 
-I build **digital products that solve real problems** — from web and mobile platforms to project tooling, computer vision and sports technology.
+I turn real-world problems into **software that people can use**, from production web/mobile products to engineering tools, geospatial research and computer vision.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-cerjo.dev-168CFF?style=for-the-badge&logo=vercel&logoColor=white)](https://cerjo.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sergio%20Izaque-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sergioizaque)
@@ -16,184 +16,115 @@ I build **digital products that solve real problems** — from web and mobile pl
 
 ## About me
 
-I'm a **Computer Science Education student at Universidade Federal Fluminense (UFF)** and an **IT Technician**.
+I'm a **Computer Science Education student at Universidade Federal Fluminense (UFF)** and an **IT Technician**. I work across the software lifecycle: understanding a problem, designing the experience and data model, implementing features, testing, deploying and improving what ships.
 
-My work is centered on turning real needs into software that is useful in practice. I like working across the whole product lifecycle: understanding the problem, shaping the interface, defining architecture and data, implementing the application, testing it and putting it into production.
+My interests include full-stack engineering, product development, mobile apps, application security, observability, automation, geospatial software and computer vision.
 
-My main areas of interest are:
+**Portfolio and client work:** [cerjo.dev](https://cerjo.dev)
 
-- full-stack web development
-- product development and UI/UX
-- mobile applications
-- software architecture and code quality
-- automated testing and CI/CD
-- cloud applications and data
-- computer vision and motion analysis
-- artificial intelligence integrations
+## Selected work
 
-> My professional portfolio, services and selected work are available at **[cerjo.dev](https://cerjo.dev)**.
+### Real-world platforms
 
----
+**Gym Management Platform** · Production use · Private repository
 
-# Selected work
+Web and mobile applications for trainers and athletes, covering workout prescription, exercise catalogs, training history, load tracking and Powerlifting progression. The student experience supports offline-first workflows; the trainer dashboard supports workout authoring and periodization. Automated domain tests and Firestore security-rule tests support releases.
 
-## Public products & portfolio projects
+**Stack:** Next.js · React Native / Expo · TypeScript · Firebase / Firestore · Vitest · Vercel
 
-### cerjo.dev — Professional Portfolio
+**NutriApp — Continuous Nutrition Follow-up** · Active development · Private repository
 
-My professional website and main point of contact for web development work. The project is maintained as a real production property with a custom domain, Git-based deployment workflow, responsive interface, technical SEO, structured data, sitemap, accessibility improvements and Vercel Web Analytics.
+A professional workflow built around the question *“Who needs my attention today, why, and what should I do next?”* The product covers patient tracking, check-ins, follow-up journeys, plans and an attention queue. It uses a testable domain architecture and Firebase Auth; the patient app and AI-assistive contracts are evolving, not advertised as finished services. Production go-live remains gated.
 
-**Stack:** `HTML` `CSS` `JavaScript` `GitHub` `Vercel` `SEO` `Web Analytics`
+**Stack:** Next.js · TypeScript · Firebase · Expo · Vitest · Domain modules
 
-[Live website](https://cerjo.dev) • [Repository](https://github.com/krrozino/cerjo-dev)
+### Public products & engineering tools
 
----
+**[WinLab Configurator](https://github.com/krrozino/winlab)** · MVP 0.9 — pilot candidate
 
-### DevBoard
+A local-first generator of Windows/PowerShell configuration packages for shared computers in schools and organizations. Includes per-user policies, AppLocker, browser/USB controls, inventory and maintenance, integrity manifests, preflight checks, safe preview and recovery/rollback. Automated Windows/PowerShell validation is in place; a controlled physical pilot is still pending.
 
-A software project observability product built around the idea that **GitHub tracks the work, while DevBoard explains how the project is going**.
+**Stack:** Next.js · TypeScript · PowerShell · Windows policies · GitHub Actions
 
-The product is being designed to transform repository activity into understandable health signals, attention items and actionable context without turning developer metrics into employee rankings. The current phase contains the application foundation, domain structure, PostgreSQL/Drizzle architecture, tests, CI and product documentation, with GitHub integration as the next major milestone.
+**[StageTrack](https://github.com/krrozino/stagetrack)** · Active development · [Deployment](https://stagetrack-ashy.vercel.app)
 
-**Stack:** `Next.js` `React` `TypeScript` `Tailwind CSS` `PostgreSQL` `Drizzle ORM` `Vitest` `GitHub Actions`
+A supervised-internship management platform with Supabase Auth, secure SSR sessions, PostgreSQL and RLS. The implementation now includes student internship records, activity registration and maintenance, advisor reviews and coordinator/advisor assignment flows.
 
-[Repository](https://github.com/krrozino/devboard)
+**Stack:** Next.js · TypeScript · Supabase · PostgreSQL · RLS · Zod
 
----
+**[DevBoard](https://github.com/krrozino/devboard)** · Pre-MVP · [Deployment](https://devboard-phi-six.vercel.app)
 
-### StageTrack
+A project observability product that turns GitHub work into explainable health and attention signals. The engineering foundation includes Next.js, PostgreSQL/Drizzle, tests, CI and scheduled evaluation of time-sensitive attention rules. Work continues toward a complete product experience.
 
-A web platform for managing **mandatory supervised internships**. The product aims to centralize internship registration, institutions, supervisors, activity records, required hours, progress and documents in one academic workflow.
+**Stack:** Next.js · TypeScript · PostgreSQL · Drizzle ORM · Vitest
 
-The engineering foundation already includes Supabase authentication, SSR sessions, protected routes, PostgreSQL persistence, Row Level Security, versioned migrations, generated database types and CI. Development is now moving into the Student MVP and the core internship domain.
+### Research & academic software
 
-**Stack:** `Next.js` `React` `TypeScript` `Tailwind CSS` `PostgreSQL` `Supabase` `Supabase Auth` `RLS` `Zod` `GitHub Actions`
+**[Pádua FloodSim](https://github.com/krrozino/padua-floodsim)** · Experimental academic release · [Live application](https://padua-floodsim.vercel.app) · [DOI](https://doi.org/10.5281/zenodo.22928810)
 
-[Repository](https://github.com/krrozino/stagetrack)
+An interactive Rio Pomba flood-scenario viewer for Santo Antônio de Pádua, RJ. The current application presents **official SGB reference flood extents** from 3.00 m to 5.50 m, not independently validated flood forecasts or neighborhood risk calculations.
 
----
+The ongoing research is structured around three goals: **monitoring observed river conditions, researching short-term statistical forecasts, and translating validated results into spatial impact**. Data provenance, scientific limitations, reproducibility and attribution are documented.
 
-### Vértice Performance
+**Stack:** Next.js · TypeScript · MapLibre GL · GeoJSON · Python / geospatial research
 
-A conceptual landing page for a performance-focused gym, created as a portfolio case for responsive interface design, conversion-oriented structure and front-end development.
+**Sports Motion Analyzer** · Computer-vision research · Private repository
 
-**Stack:** `React` `TypeScript` `Vite` `Responsive Design`
+Python-based motion capture and offline analysis for sports, currently focused on the Powerlifting squat. Includes MediaPipe pose estimation, camera-view awareness, optional barbell tracking, structured recordings, quality diagnostics, temporal phase analysis and a reusable biomechanics measurement core.
 
-[Live project](https://vertice-performance-alpha.vercel.app/) • [Repository](https://github.com/krrozino/vertice-performance)
+**Stack:** Python · MediaPipe · OpenCV · Computer Vision
 
----
+**[EduGrid](https://github.com/PaduaDevs/EduGrid)** · Collaborative academic project · Sprint 0
 
-## Real-world platforms
+An open-source timetable optimization platform being developed with PaduaDevs. The current phase establishes architecture, domain constraints, team workflow and a scheduling proof of concept; automatic timetable optimization remains a planned capability.
 
-### Gym Management Platform
+**Planned stack:** Next.js · NestJS · PostgreSQL · Python · OR-Tools
 
-A real-world platform for **workout prescription, athlete tracking and gym management**, supporting both traditional strength training and Powerlifting.
+### Client websites & interactive experiences
 
-The ecosystem includes a React Native / Expo student application and a Next.js trainer dashboard. Features include workout management, exercise load tracking, training history, personal records, Powerlifting progression, offline-first synchronization, trainer workflows and automated domain/security tests. Production and staging environments are isolated and deployed through a structured Git/Vercel/Firebase workflow.
+**[Mães que Oram — Landing Page](https://github.com/krrozino/landing-page-rosangela)** · Client website · [Live](https://landing-page-rosangela.vercel.app)
 
-**Stack:** `TypeScript` `React Native` `Expo` `Next.js` `React` `Firebase` `Firestore` `Vitest` `Vercel`
+A lightweight, responsive landing page for a real client's project, bringing its presentation, social channels and digital-product links together.
 
-> Private repository — real-world project in active development and production use.
+**[Injorn Web](https://github.com/krrozino/injorn-web)** · Interactive experience · [Live](https://injorn-web-preview.vercel.app)
 
----
+A public, player-facing fictional-world website featuring a distinctive visual language, contextual transitions and reusable scenes/hotspots, while keeping private game-master content out of the public app.
 
-### Nutrition & Performance Platform
+**[Vértice Performance](https://github.com/krrozino/vertice-performance)** · Conceptual UI case · [Live](https://vertice-performance-alpha.vercel.app/)
 
-A web and mobile product designed to support professional nutrition and performance workflows. The monorepo separates the professional dashboard, patient application, testable domain rules and AI integration contracts so the product can evolve without becoming tightly coupled to one provider or interface.
+A responsive gym landing page built to demonstrate front-end design, information hierarchy and conversion-oriented navigation.
 
-The project includes quality gates for formatting, linting, type checking, automated tests and production builds, and is being developed around continuous professional follow-up rather than a disposable prototype.
+**O Livro Vermelho** · RPG platform · Private repository
 
-**Stack:** `TypeScript` `Next.js` `React` `Expo` `Firebase` `Domain-driven modules` `AI integrations` `Vercel`
+A mature RPG toolkit combining character sheets, campaigns, tactical maps, compendium and community features. The project uses automated checks and isolated Firebase-emulator workflows as part of release preparation.
 
-> Private repository — real-world product under active development.
+**Also being planned:** **EloDo**, a martial-arts-school management product. Its repository is still empty; it is not being presented as a completed application.
 
 ---
 
-## Research & experimental work
+## Technologies I work with
 
-### Sports Motion Analyzer
+| Area | Technologies |
+| --- | --- |
+| **Languages** | TypeScript, JavaScript, Python, Java, PowerShell |
+| **Web** | React, Next.js, HTML, CSS, Tailwind CSS, Vite |
+| **Mobile** | React Native, Expo |
+| **Data & backend** | Firebase, Firestore, Supabase, PostgreSQL, Drizzle ORM |
+| **Quality & cloud** | Git, GitHub, GitHub Actions, Vitest, Zod, Vercel |
+| **Specialized work** | MapLibre GL, GeoJSON, MediaPipe, OpenCV |
 
-An experimental Python platform for **sports movement analysis through computer vision**. The system uses camera-based pose estimation to capture movement data in real time and provides an offline analysis pipeline for technical and research-oriented inspection.
+## How I approach engineering
 
-The current sports module focuses on **Powerlifting / Squat** and already includes pose tracking, camera-view awareness, recording to structured JSON, quality reports, performance diagnostics, generic biomechanics metrics, movement coverage checks, pose robustness diagnostics, optional barbell tracking and temporal squat phase segmentation.
+I favor **maintainable and testable products** over demos that only look finished. That means version control, clear requirements, privacy-conscious architecture, distinct development/production environments, automated quality gates and honest project-status labels.
 
-The architecture deliberately separates raw measurements from sport-specific interpretation so future movements such as bench press, deadlift and other sports can reuse the same measurement core.
-
-**Stack:** `Python` `MediaPipe` `OpenCV` `Computer Vision` `Biomechanics` `Data Analysis`
-
-> Academic / research project under continuous experimentation.
-
----
-
-# Tech Stack
-
-## Languages
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-## Web & Frontend
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-## Mobile
-
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-
-## Backend, Data & Cloud
-
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Drizzle](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=000000)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-## Quality & Engineering
-
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
-
-## Computer Vision & AI
-
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
-![AI](https://img.shields.io/badge/AI-Integrations-168CFF?style=for-the-badge&logo=openai&logoColor=white)
-
-## Tools
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+I also use AI-assisted development as part of my workflow, with code review, verification and source control still treated as engineering responsibilities.
 
 ---
-
-## What I'm improving now
-
-I'm continuously improving my work in **software architecture, automated testing, clean code, CI/CD, application security, observability, database design, product thinking, computer vision and AI-assisted systems**.
-
-I prefer building projects that can evolve over time instead of isolated demos — with documentation, versioning, quality gates and a clear path from prototype to real product.
-
----
-
-## Let's connect
-
-- Portfolio: **[cerjo.dev](https://cerjo.dev)**
-- Instagram: **[@cerjo.dev](https://www.instagram.com/cerjo.dev/)**
-- LinkedIn: **[Sergio Izaque](https://linkedin.com/in/sergioizaque)**
-- GitHub: **[@krrozino](https://github.com/krrozino)**
 
 <div align="center">
 
-### Building, learning and improving one project at a time.
+**Let's connect:** [Portfolio](https://cerjo.dev) · [LinkedIn](https://linkedin.com/in/sergioizaque) · [Instagram](https://www.instagram.com/cerjo.dev/)
+
+*Building, learning and improving one project at a time.*
 
 </div>
