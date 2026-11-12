@@ -24,81 +24,109 @@ My interests include full-stack engineering, product development, mobile apps, a
 
 ## Selected work
 
-### Real-world platforms
+My projects span **real-world products, open-source education, academic research, developer tools, and client websites**. I distinguish deployed software, research prototypes, and features still under development.
 
-**Gym Management Platform** · Production use · Private repository
+### Flagship platforms
 
-Web and mobile applications for trainers and athletes, covering workout prescription, exercise catalogs, training history, load tracking and Powerlifting progression. The student experience supports offline-first workflows; the trainer dashboard supports workout authoring and periodization. Automated domain tests and Firestore security-rule tests support releases.
+**O Livro Vermelho — RPG Platform** · Long-running project (1+ year) · Used by a private RPG group · Private repository
+
+My largest and longest-running software project. A tabletop RPG platform with automated character sheets, campaign management, a game-master dashboard, tactical maps, initiative and synchronized combat, compendiums, homebrews, community features and administration. Its ongoing engineering work includes access control, mobile usability, cost-aware Firebase usage and isolated emulator-based release tests. There is no unrestricted public demo.
+
+**Stack:** React · TypeScript · Vite · Zustand · Firebase (Auth, Firestore, RTDB, Storage, Functions) · PixiJS
+
+**Gym Management Platform (AcademiaApp)** · Used in a real training environment · Private repository · [Case study](https://cerjo.dev/projetos/academia)
+
+A web/mobile ecosystem for personal trainers and students. The trainer dashboard supports student management, exercise catalogs, workout prescriptions and periodization. The student app supports workout history, load tracking, rest timers, Powerlifting progression and offline-first usage. Separate staging/production environments and automated domain/Firestore Rules tests support controlled releases.
 
 **Stack:** Next.js · React Native / Expo · TypeScript · Firebase / Firestore · Vitest · Vercel
 
-**NutriApp — Continuous Nutrition Follow-up** · Active development · Private repository
+**NutriApp — Continuous Nutrition Follow-up** · Active development and supervised demos · Private repository
 
-A professional workflow built around the question *“Who needs my attention today, why, and what should I do next?”* The product covers patient tracking, check-ins, follow-up journeys, plans and an attention queue. It uses a testable domain architecture and Firebase Auth; the patient app and AI-assistive contracts are evolving, not advertised as finished services. Production go-live remains gated.
+A nutrition-professional workflow designed to reduce repetitive patient-by-patient follow-up through organized patient records, check-ins, journeys, attention queues and plan-specific tracking. A monorepo separates the professional dashboard, patient app, testable domain rules and AI integration contracts. **Real-patient production use remains gated** by security, quality and operational validation; planned automation is not represented as a launched service.
 
-**Stack:** Next.js · TypeScript · Firebase · Expo · Vitest · Domain modules
+**Stack:** Next.js · TypeScript · Expo · Firebase · Vitest · Domain modules
 
-### Public products & engineering tools
+**[WinLab Configurator](https://github.com/krrozino/winlab)** · MVP 0.9 pilot candidate · [Case study](https://cerjo.dev/projetos/winlab)
 
-**[WinLab Configurator](https://github.com/krrozino/winlab)** · MVP 0.9 — pilot candidate
-
-A local-first generator of Windows/PowerShell configuration packages for shared computers in schools and organizations. Includes per-user policies, AppLocker, browser/USB controls, inventory and maintenance, integrity manifests, preflight checks, safe preview and recovery/rollback. Automated Windows/PowerShell validation is in place; a controlled physical pilot is still pending.
+A local-first Windows configuration toolkit for shared PCs in schools and small organizations. Generates PowerShell packages covering account policies, AppLocker, browser/USB controls, inventory, maintenance and recovery. Includes preflight checks, SHA-256 integrity manifests, preview-before-apply workflows and rollback procedures. Automated validation exists; a physical pilot and Windows desktop companion are separate ongoing work.
 
 **Stack:** Next.js · TypeScript · PowerShell · Windows policies · GitHub Actions
 
-**[StageTrack](https://github.com/krrozino/stagetrack)** · Active development · [Deployment](https://stagetrack-ashy.vercel.app)
+### Open-source education & applied research
 
-A supervised-internship management platform with Supabase Auth, secure SSR sessions, PostgreSQL and RLS. The implementation now includes student internship records, activity registration and maintenance, advisor reviews and coordinator/advisor assignment flows.
+**[Taekwondo para Todos — PT-BR Encyclopedia](https://github.com/krrozino/kukkiwon-ptbr-tkd)** · Public educational prerelease · [Website](https://kukkiwon-ptbr-tkd.kukkiwon-ptbr-tkd.workers.dev/)
 
-**Stack:** Next.js · TypeScript · Supabase · PostgreSQL · RLS · Zod
+A free, nonprofit, community-driven Taekwondo learning resource in Brazilian Portuguese. Features an interactive body atlas, catalog navigation, Poomsae introductions, fundamentals, study tools and curriculum organization. Draft technical content is **not** an approved or validated catalog; references require source verification and human review. **Independent project, not affiliated with or endorsed by Kukkiwon.**
 
-**[DevBoard](https://github.com/krrozino/devboard)** · Pre-MVP · [Deployment](https://devboard-phi-six.vercel.app)
+**Stack:** Astro · React · TypeScript · Supabase / PostgreSQL · Cloudflare Workers · Vitest / Playwright
 
-A project observability product that turns GitHub work into explainable health and attention signals. The engineering foundation includes Next.js, PostgreSQL/Drizzle, tests, CI and scheduled evaluation of time-sensitive attention rules. Work continues toward a complete product experience.
+**[Pádua FloodSim](https://github.com/krrozino/padua-floodsim)** · Experimental academic release · [Web app](https://padua-floodsim.vercel.app) · [DOI](https://doi.org/10.5281/zenodo.22928810) · [Case study](https://cerjo.dev/projetos/padua-floodsim)
 
-**Stack:** Next.js · TypeScript · PostgreSQL · Drizzle ORM · Vitest
-
-### Research & academic software
-
-**[Pádua FloodSim](https://github.com/krrozino/padua-floodsim)** · Experimental academic release · [Live application](https://padua-floodsim.vercel.app) · [DOI](https://doi.org/10.5281/zenodo.22928810)
-
-An interactive Rio Pomba flood-scenario viewer for Santo Antônio de Pádua, RJ. The current application presents **official SGB reference flood extents** from 3.00 m to 5.50 m, not independently validated flood forecasts or neighborhood risk calculations.
-
-The ongoing research is structured around three goals: **monitoring observed river conditions, researching short-term statistical forecasts, and translating validated results into spatial impact**. Data provenance, scientific limitations, reproducibility and attribution are documented.
+Geospatial software and research focused on the Rio Pomba in Santo Antônio de Pádua, Brazil. The public viewer displays **11 official SGB reference inundation extents from 3.00 m to 5.50 m**. Research is organized around monitoring observed conditions, investigating short-term forecasts, and translating validated results into spatial impact. **Not an operational forecast or official flood-warning system.**
 
 **Stack:** Next.js · TypeScript · MapLibre GL · GeoJSON · Python / geospatial research
 
-**Sports Motion Analyzer** · Computer-vision research · Private repository
+**Sports Motion Analyzer** · Experimental computer-vision research · Private repository
 
-Python-based motion capture and offline analysis for sports, currently focused on the Powerlifting squat. Includes MediaPipe pose estimation, camera-view awareness, optional barbell tracking, structured recordings, quality diagnostics, temporal phase analysis and a reusable biomechanics measurement core.
+Python-based motion capture and offline sports analysis focused on the **Powerlifting squat**. Includes MediaPipe pose tracking, camera-view awareness, optional barbell tracking, recorded measurements, quality diagnostics, temporal phase analysis and a reusable biomechanics metrics core. A research tool, not a validated competition judging system.
 
 **Stack:** Python · MediaPipe · OpenCV · Computer Vision
 
-**[EduGrid](https://github.com/PaduaDevs/EduGrid)** · Collaborative academic project · Sprint 0
+**[EduGrid](https://github.com/PaduaDevs/EduGrid)** · Collaborative academic project with PaduaDevs · Sprint 0
 
-An open-source timetable optimization platform being developed with PaduaDevs. The current phase establishes architecture, domain constraints, team workflow and a scheduling proof of concept; automatic timetable optimization remains a planned capability.
+An open-source initiative for educational timetable optimization, conflict-aware scheduling and resource allocation. The team is establishing constraints, architecture and a proof of concept. Automated timetable generation remains a **planned capability**.
 
-**Planned stack:** Next.js · NestJS · PostgreSQL · Python · OR-Tools
+**Planned stack:** Next.js · NestJS · PostgreSQL · Python / OR-Tools
 
-### Client websites & interactive experiences
+### Academic applications & products in development
 
-**[Mães que Oram — Landing Page](https://github.com/krrozino/landing-page-rosangela)** · Client website · [Live](https://landing-page-rosangela.vercel.app)
+**[StageTrack](https://github.com/krrozino/stagetrack)** · Active development · [Preview](https://stagetrack-ashy.vercel.app)
 
-A lightweight, responsive landing page for a real client's project, bringing its presentation, social channels and digital-product links together.
+A supervised-internship management platform for student records, activity logs, hour tracking, advisor reviews and coordination workflows. Its engineering foundation uses Supabase Auth, secure server-side sessions, PostgreSQL migrations and Row Level Security. Functional flows are being expanded and validated; it is not presented as institution-wide deployed software.
 
-**[Injorn Web](https://github.com/krrozino/injorn-web)** · Interactive experience · [Live](https://injorn-web-preview.vercel.app)
+**Stack:** Next.js · TypeScript · Supabase Auth · PostgreSQL · RLS · Zod
 
-A public, player-facing fictional-world website featuring a distinctive visual language, contextual transitions and reusable scenes/hotspots, while keeping private game-master content out of the public app.
+**[DevBoard](https://github.com/krrozino/devboard)** · Foundation / pre-MVP · [Preview](https://devboard-phi-six.vercel.app)
+
+A developer observability concept designed to transform repository activity into explainable project-health signals and actionable attention items. The current foundation contains a Next.js application, PostgreSQL/Drizzle schema, domain modules, tests and CI. Full live GitHub synchronization is still a roadmap milestone.
+
+**Stack:** Next.js · TypeScript · PostgreSQL · Drizzle ORM · Vitest
+
+**EloDo — Martial Arts School Management** · Experimental foundation · Private repository
+
+A multi-school platform being designed for martial arts academies, including schedules, attendance, memberships, graduations and organization-level permissions. The codebase contains a React/TypeScript UI foundation and a controlled **local authentication** experiment. Remote Supabase services, production RLS, real school data and commercial release remain future gates.
+
+**Stack:** React · TypeScript · Vite · Tailwind CSS · Supabase / PostgreSQL (planned)
+
+### Client work, portfolio & interactive experiences
+
+**[cerjo.dev — Professional Portfolio](https://github.com/krrozino/cerjo-dev)** · [Live site](https://cerjo.dev)
+
+My professional website and contact point. Includes responsive navigation, structured metadata, accessibility improvements, Vercel Analytics and dedicated case studies for selected projects, distinguishing real client work, prototypes and research.
+
+**Stack:** HTML · CSS · JavaScript · Vercel
+
+**[Mães que Oram — Landing Page](https://github.com/krrozino/landing-page-rosangela)** · Client website · [Live](https://landing-page-rosangela.vercel.app) · [Case study](https://cerjo.dev/projetos/maes-que-oram)
+
+A responsive website for a real community/client initiative, combining its visual identity, social channels and links to digital products in a lightweight experience.
+
+**[Make Me Angel — Editorial Landing Page](https://github.com/krrozino/landing-page-angelica)** · Client-oriented web design project
+
+A responsive editorial landing page for a beauty-education offer, presenting **Protocolos de Atendimento 3X** through a clear information hierarchy and calls to action. Its public repository demonstrates the interface; it is not described as a launched course platform.
+
+**[Injorn Web](https://github.com/krrozino/injorn-web)** · Interactive fictional-world website · [Preview](https://injorn-web-preview.vercel.app)
+
+A player-facing RPG-world experience with contextual storytelling, responsive visual scenes and reusable hotspots, keeping game-master spoilers and private campaign planning out of the public application.
 
 **[Vértice Performance](https://github.com/krrozino/vertice-performance)** · Conceptual UI case · [Live](https://vertice-performance-alpha.vercel.app/)
 
-A responsive gym landing page built to demonstrate front-end design, information hierarchy and conversion-oriented navigation.
+A **fictional** premium-gym landing page demonstrating responsive layouts, semantic structure and conversion-oriented interaction. Business details and testimonials are illustrative.
 
-**O Livro Vermelho** · RPG platform · Private repository
+### Early-stage product explorations
 
-A mature RPG toolkit combining character sheets, campaigns, tactical maps, compendium and community features. The project uses automated checks and isolated Firebase-emulator workflows as part of release preparation.
+**WorkEasy** · Product design / pre-MVP · Private repository — A mobile-first service-management concept for independent professionals, initially exploring cleaning/maintenance and carpentry workflows, tenant isolation and estimates. No live customer product.
 
-**Also being planned:** **EloDo**, a martial-arts-school management product. Its repository is still empty; it is not being presented as a completed application.
+**PDVSys — Kiosk Point of Sale** · Technical prototype v0.2 · Private repository — An offline-first Windows touchscreen POS concept with local sales records and thermal ticket workflows. Physical hardware, recovery and fiscal/operational validation are required before real use; the repository currently documents a prototype rather than a released POS.
 
 ---
 
